@@ -7,6 +7,6 @@ https://automaticaddison.com/sensor-fusion-using-the-robot-localization-package-
 4.) Change directory to the root of your workspace and copy the launch file "launch2.py" into the src/robot_localization/launch directory in your workspace.
 5.) Change directory to the root of your workspace and build your workspace using the "colcon build" command. 
 6.) In a new terminal source ROS2. Change directory to the root of your workspace and source your workspace. 
-9.) Then run the command "ros2 launch src/robot_localization/launch/launch2.py".
-10.) Play the test1 rosbag. 
-11.) In another new terminal echo the /odometry/global topic to observe results.
+7.) Then run the command "ros2 launch src/robot_localization/launch/launch2.py".
+8.) Play the test1 rosbag. 
+9.) In another new terminal echo the /odometry/global topic to observe results.
