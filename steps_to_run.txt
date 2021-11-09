@@ -1,0 +1,12 @@
+1.) Create your workspace
+2.) Install robot localization package in your workspace as instructed in the "Install robot localization package" section of the article linked here:
+
+https://automaticaddison.com/sensor-fusion-using-the-robot-localization-package-ros-2/ 
+
+3.) Change directory to the root of your workspace and copy the parameters file "ekf_params_2.yaml" into the src/robot_localization/params directory in your workspace.
+4.) Change directory to the root of your workspace and copy the launch file "launch2.py" into the src/robot_localization/launch directory in your workspace.
+5.) Change directory to the root of your workspace and build your workspace using the "colcon build" command. 
+6.) In a new terminal source ROS2. Change directory to the root of your workspace and source your workspace. 
+9.) Then run the command "ros2 launch src/robot_localization/launch/launch2.py".
+10.) Play the test1 rosbag. 
+11.) In another new terminal echo the /odometry/global topic to observe results.
