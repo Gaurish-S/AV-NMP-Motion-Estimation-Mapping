@@ -3,10 +3,11 @@
 
 https://automaticaddison.com/sensor-fusion-using-the-robot-localization-package-ros-2/ 
 
-3.) Change directory to the root of your workspace and copy the parameters file "ekf_params_2.yaml" into the src/robot_localization/params directory in your workspace.
-4.) Change directory to the root of your workspace and copy the launch file "launch2.py" into the src/robot_localization/launch directory in your workspace.
-5.) Change directory to the root of your workspace and build your workspace using the "colcon build" command. 
-6.) In a new terminal source ROS2. Change directory to the root of your workspace and source your workspace with the command ". install/local_setup.bash". 
-7.) Then run the command "ros2 launch src/robot_localization/launch/launch2.py".
-8.) Play the test1 rosbag. 
-9.) In another new terminal echo the /odometry/global topic to observe results.
+3.) Source ROS2 Galactic.
+4.) Change directory to the root of your workspace and copy the parameters file "ekf_params_2.yaml" into the src/robot_localization/params directory in your workspace.
+5.) Change directory to the root of your workspace and copy the launch file "launch2.py" into the src/robot_localization/launch directory in your workspace.
+6.) Change directory to the root of your workspace and build your workspace using the "colcon build" command. 
+7.) In a new terminal source ROS2 Galactic. Change directory to the root of your workspace and source your workspace with the command ". install/local_setup.bash". 
+8.) Then run the command "ros2 launch src/robot_localization/launch/launch2.py".
+9.) Play the test1 rosbag. 
+10.) In another new terminal echo the /odometry/global topic to observe results.
